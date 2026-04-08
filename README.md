@@ -68,6 +68,7 @@ User adds a new lead using the form.
 ![Add Lead](./images/addlead.png)
 
 This shows the add functionality in my CRM application. The user enters lead information through the form, and when submitted, it sends a request to the backend to create a new lead. I used TanStack Query to handle the mutation and automatically update the UI after the new lead is added.
+
 ---
 
 ### Updating a Lead
@@ -75,7 +76,7 @@ Editing an existing lead and updating its information.
 
 ![Update Lead](./images/updatedLead.png)
 
-This shows the update functionality in my CRM application. I used a mutation with TanStack Query to send the updated data to the backend. After the update, I invalidate the query so the latest data is fetched and displayed without refreshing the page.
+This shows the update functionality in my CRM application. Users can edit existing lead information, and when they submit the changes, it sends a request to the backend to update the lead. The UI then reflects the updated information immediately, providing a seamless user experience.
 
 ---
 
