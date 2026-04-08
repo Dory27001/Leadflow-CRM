@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+}
+
+#root {
+  padding: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  margin-bottom: 5px;
+  color: #111827;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  color: #6b7280;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.input,
+.select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  min-width: 160px;
+  transition: 0.2s;
+}
+
+.input:focus,
+.select:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+.button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.lead-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lead-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.lead-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.badge {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.badge-new {
+  background: #3b82f6;
+}
+
+.badge-contacted {
+  background: #f59e0b;
+}
+
+.badge-qualified {
+  background: #10b981;
+}
+
+.delete-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ef4444;
+  color: white;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #dc2626;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3b82f6;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
